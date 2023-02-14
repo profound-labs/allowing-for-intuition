@@ -1,0 +1,80 @@
+\documentclass[
+  final,
+  babelLanguage=british,
+  %desktopVersion,
+  %showtrims,
+  %overleaf,
+]{anecdote}
+
+%\graphicspath{{./assets/photos/300dpi/}}
+\graphicspath{{./assets/photos/92dpi/}}
+
+% Page size: 135mm x 120mm
+% Body text: 11 / 13.6 pt
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{Allowing Intuition, Revelation, and Insight}
+\subtitle{}
+\author{Ajahn Vajiro}
+\publisher{Publicações Sumedhārāma}
+\date{2023-02-13}
+\editionInfo{\textit{First edition}, 2023}
+\ISBN{000-000-0000-00-0}% TODO update ISBN
+
+% === Metadata ===
+
+\hypersetup{
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfcopyright={Copyright (C) 2023, \thePublisher},
+  pdfsubject={},
+  pdfkeywords={},
+  pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
+  pdfcontacturl={},
+  pdflang={en},
+}
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+\hyphenation{London}
+
+\begin{document}
+
+\frontmatter
+
+\ifdesktopversion
+\desktopCover{\includegraphics[height=\paperheight]{./desktop-cover.png}}
+\fi
+
+\input{./manuscript/tex/titlepage.tex}
+
+\input{./manuscript/tex/copyright.tex}
+
+% \input{./manuscript/tex/dedication.tex}
+
+% \cleartorecto
+% \tableofcontents*
+
+% \input{./manuscript/tex/foreword.tex}
+
+% Page 1 is the first page of the first chapter.
+\mainmatter
+
+\input{./manuscript/tex/allowing-for-intuition.tex}
+
+\newpage\null\thispagestyle{empty}
+\clearpage
+
+% \backmatter
+
+\input{./manuscript/tex/copyright-details.tex}
+
+\emptyUntilEven
+
+\end{document}
