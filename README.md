@@ -8,9 +8,9 @@ Ebook status: **N/A**
 
 First edition
 
-ISBN for paperback: `000-000-0000-00-0`
+ISBN for paperback: `978-989-8994-47-9`
 
-ISBN for ebooks: `000-0-00000-000-0`
+ISBN for ebooks: `978-989-8994-48-6`
 
 Based on [prophecy-template].
 
