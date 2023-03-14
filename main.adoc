@@ -1,10 +1,10 @@
 = Allowing Intuition, Revelation, and Insight
 :booktitle: {doctitle}
-:description:
+:description: Dhamma talk by Ajahn Vajiro
 :author: Ajahn Vajiro
 :creator: {author}
 :version: v1.0
-:revdate: 2023-02-13
+:revdate: 2023-03-14
 :doctype: book
 :lang: en
 :pubs-logo: sumedharama-logo-black-w150.jpg
@@ -18,24 +18,13 @@
 :identifier: isbn:{isbn}
 :imagesdir: assets/photos/92dpi-ebook-sRGB
 :includes: manuscript/asciidoc
-:front-cover-image: image:desktop-cover.png[Front Cover,800,1200]
+:front-cover-image: image:desktop-cover.jpg[Front Cover,1200,1066]
 :toc: left
 :toc-title: Contents
 :toclevels: 0
 
-include::{includes}/dedication.adoc[]
-
-include::{includes}/foreword.adoc[]
-
-include::{includes}/preface.adoc[]
-
 include::{includes}/titlepage.adoc[]
 
-include::{includes}/01-chapter-one.adoc[]
-
-include::{includes}/02-chapter-two.adoc[]
-
-include::{includes}/glossary.adoc[]
+include::{includes}/allowing-intuition.adoc[]
 
 include::{includes}/copyright.adoc[]
-
